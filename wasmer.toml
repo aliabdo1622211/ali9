@@ -3,7 +3,7 @@ name = "my-static-site"
 version = "0.1.0"
 
 [dependencies]
-"static-web-server" = "*"
+"wasmer/static-web-server" = "*"
 
 [fs]
 "/" = "."
