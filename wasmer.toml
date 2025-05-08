@@ -1,0 +1,12 @@
+[package]
+name = "my-static-site"
+version = "0.1.0"
+
+[dependencies]
+"static-web-server" = "*"
+
+[fs]
+"/" = "."
+
+[run]
+command = "static-web-server"
